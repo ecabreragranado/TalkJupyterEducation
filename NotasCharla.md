@@ -2,10 +2,6 @@
 
 ## Estructura
 
-Hello, my name is Eduardo Cabrera Granado, I work as an associate professor at Complutense University of Madrid and this talk
-is about discovering the possibilities, mainly in a teaching context but also as a research environment for a group of scientists, of the open-source Jupyter ecosystem. I will try to show you how Jupyter can be useful in teaching and how we can set up a server for a course, accesible with a web-browser by the students.
-
-
 
 1. Motivation (check Elena's talk -pechakucha)
 
@@ -23,24 +19,6 @@ is about discovering the possibilities, mainly in a teaching context but also as
       1.4.5 Collaboration between students to allow work on small groups.
       1.4.6 Open Source (?) Just a preference.
 
-First, motivation. In the last years and mainly because the massive use of computers, tablets or mobile phones by the 
-students, there have been a very large activity in exploring new ways of teaching: more easy-to-follow outside the
-classroom and using intensively the student computer. There have been approaches such as flipped classrooms where the
-time spent in the class is used more for working on examples and exercises than introduce new concepts, bring-your-own-device
-or, of course, massive online courses. 
-
-These approaches lead to new problems that teachers need to address: if there is some software needed to follow the course, 
-there can be installation issues, sometimes the students do not use the same format for their exercises, if you want to 
-release some teaching material slideshows some times are not dynamic enough...
-
-Here is where setting up an online environment that students can access via a web-browser can help us to skip all those tasks, and problems. The features we could look for in such an environment can be: 
-
-* That the format we choose allow to insert code, text, videos, images, animations...everything...
-
-* an integrated course management system, allowing to generate and release teaching material and assignments, grading them, giving back feedback to the students...the complete cycle
-
-* open-source...this is of course a personal wish, but I also think that open-source software and open-educational resources
-are more tied to what public universities such as mine represent. Although this is another topic...
 
 
 2. Jupyter (Ju-lia, Py-thon, R) Notebook. 
@@ -74,16 +52,4 @@ NOTA: Antes de hablar de RISE hay que decir en que consiste el notebook: celdas,
     4.2 How does it work?
     4.3 pros and cons
     
- ## Conexion con porton para mostrar el curso de DOO
  
- 1. Se ha de correr la imagen docker desde ~/testjupyterhub/testgoogleauth
- 
- 2. Para mostrar el formgrade, se ha de correr desde ~/jupyterhubdata/ecabrera/curso2016/ (sudo nbgrader formgrade --ip='0.0.0.0')
- 
- 
- ## Dia de la charla
- 
- * Tener pestagnas abiertas de Single-Atom-Laser y mi notebook para tener los ejemplos cargados
- 
- * Tener nbgrader formgrade corriendo.
-    
